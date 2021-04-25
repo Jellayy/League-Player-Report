@@ -1,3 +1,5 @@
+// I have made this code better with this comment
+
 import java.util.ArrayList;
 import java.util.Scanner;
 public class LeaguePlayerReport {
