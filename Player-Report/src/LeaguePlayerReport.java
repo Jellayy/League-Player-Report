@@ -17,6 +17,7 @@ public class LeaguePlayerReport {
         System.out.println("What is your level in game");
         int level;
         level = input.nextInt();
+        input.nextLine();
 
         //Collect the two main roles played by the user
         System.out.println("List your favorite role to play");
