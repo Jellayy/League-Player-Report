@@ -1,11 +1,13 @@
-// I have made this code better with this comment
-
+// I have made this code better with this comment - posted by my mans Jellayy 4/25/21
 import java.util.ArrayList;
 import java.util.Scanner;
 public class LeaguePlayerReport {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         //The following code will be the development of a League of Legends Player Report
+
+
+
 
         //Collect the name of the player
         System.out.println("What is your first and last name");
@@ -46,7 +48,6 @@ public class LeaguePlayerReport {
         final String homie = "Matt Karp";
         final int powerLevel = 9000;
         goat(homie, 9000);
-
     }
     //Generate Report
     public static void report(String fullName, String userName, int level, ArrayList<String> playerRoles, ArrayList<String> playerFavoriteChampions) {
