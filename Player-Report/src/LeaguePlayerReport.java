@@ -21,7 +21,7 @@ public class LeaguePlayerReport {
         ArrayList<String> roles = new ArrayList<>();
         while (input.hasNextLine()) {
             String lane = input.nextLine();
-            if(lane.equals("q"))
+            if(lane.equals("Q"))
                 break;
             else if (input.hasNextLine()) {
                 roles.add(lane);
@@ -33,7 +33,7 @@ public class LeaguePlayerReport {
         ArrayList<String> favoriteChampions = new ArrayList<>();
         while (input.hasNextLine()) {
             String champs = input.nextLine();
-            if(champs.equals("q"))
+            if(champs.equals("Q"))
                 break;
             else if (input.hasNextLine()) {
                 favoriteChampions.add(champs);
