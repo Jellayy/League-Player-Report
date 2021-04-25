@@ -40,9 +40,6 @@ public class LeaguePlayerReport {
             }
         }
         report(fullName, userName, level, roles, favoriteChampions);
-
-
-
         final String homie = "Matt Karp";
         final int powerLevel = 9000;
         goat(homie, 9000);
